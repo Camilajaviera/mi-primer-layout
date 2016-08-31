@@ -64,14 +64,15 @@ img{
 	border: 1px solid gray;
 
 }
-.linea{
-	width: 50px;
+.linea1{
+
 	border-bottom: 3px solid black;
 	margin-left: 5px;
 	padding-top: 10px;
+	width: 35px;
 }
 
-.box{
+.box1{
 	width:210px;
 	height:210px;
 	position: relative;
@@ -81,7 +82,7 @@ img{
 	padding-left: 60px;
 		
 }
-.box p{
+.box1 p{
 	color: white;
 	font-size: 18px;
 	position: absolute;
@@ -117,16 +118,66 @@ img{
 	background-image:url("../img/profile-6.png"); 
 }
 
-.enlace{
-	text-decoration: none;
-	color: white;
-	font-size: 18px;
-	margin:0px;
-	padding:0px;
-	bottom:5px;
-	right:10px;
+.linea{
+	border: 3px solid #BDBDBD;
+	padding-left: 50px;
+	padding-top: 50px;
+
+}
+.avatar{
+	border-radius: 50%;
+	margin-left: 250px;
+	width: 60%;
+}
+
+h1{
+	text-align: center;
+}
+
+p {
+	text-align: center;
 	
-	}
+}
+
+.box{
+	font-size: 20px;
+	color: white;
+	background-color: #6E6E6E;
+	height: 50px;
+	text-align: auto;
+	padding: 15px;
+}
+
+.n01{
+	width: 550px;
+}
+	
+.n02{
+	width: 400px; 
+}
+
+.n03{
+	width: 210px;
+}
+.caja{
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 20px;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+}
+
+.img1{
+	background-image:url(../img/p5.jpg);
+}
+.img2{
+	background-image: url(../img/p6.jpg);
+}
+.img3{
+	background-image: url(../img/p8.jpg);
+}
 
 .col-1{
 	width: 8.333333%;
